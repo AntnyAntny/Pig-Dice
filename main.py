@@ -28,8 +28,8 @@ while computerScore < 30 and userScore < 30:
     if computerRoll == 1:
         print("THE COMPUTER ROLLED A ONE! SCORE HAS RESET!\n")
         computerScore = 0
-    print(f"{userName} rolled a {userRoll}! His score is now {userScore}!")
-    print(f"The computer rolled a {computerRoll}! His score is now {computerScore}!\n")
+    print(f"{userName} rolled a {userRoll}! Their score is now {userScore}!")
+    print(f"The computer rolled a {computerRoll}! Their score is now {computerScore}!\n")
     
     time.sleep(1)
 #remember to handle ties past the 29 point mark
